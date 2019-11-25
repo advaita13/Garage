@@ -1,0 +1,22 @@
+//
+//  AppDelegate.swift
+//  BarcodeScanner
+//
+//  Created by Pandya, Advaita | Adi | RP on 2019/11/25.
+//  Copyright © 2019 AdiPadi. All rights reserved.
+//
+
+import UIKit
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        return true
+    }
+    
+}
+
