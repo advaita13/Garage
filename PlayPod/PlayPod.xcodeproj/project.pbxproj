@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241FF5E29DF0F9D89DCAD6B7 /* Pods_PlayPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D233EFB1D8FD7473296B1B /* Pods_PlayPod.framework */; };
+		51FCB211239F81E000958CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FCB210239F81E000958CAD /* AppDelegate.swift */; };
+		51FCB213239F81E000958CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FCB212239F81E000958CAD /* SceneDelegate.swift */; };
+		51FCB215239F81E000958CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FCB214239F81E000958CAD /* ViewController.swift */; };
+		51FCB218239F81E000958CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FCB216239F81E000958CAD /* Main.storyboard */; };
+		51FCB21A239F81E100958CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FCB219239F81E100958CAD /* Assets.xcassets */; };
+		51FCB21D239F81E100958CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FCB21B239F81E100958CAD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51FCB20D239F81E000958CAD /* PlayPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FCB210239F81E000958CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51FCB212239F81E000958CAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51FCB214239F81E000958CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51FCB217239F81E000958CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51FCB219239F81E100958CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51FCB21C239F81E100958CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51FCB21E239F81E100958CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B0793F737A1C77FF6109CED /* Pods-PlayPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayPod.release.xcconfig"; path = "Target Support Files/Pods-PlayPod/Pods-PlayPod.release.xcconfig"; sourceTree = "<group>"; };
+		CCE38283EF2E4B6F1B01A8D2 /* Pods-PlayPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayPod.debug.xcconfig"; path = "Target Support Files/Pods-PlayPod/Pods-PlayPod.debug.xcconfig"; sourceTree = "<group>"; };
+		E6D233EFB1D8FD7473296B1B /* Pods_PlayPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51FCB20A239F81E000958CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241FF5E29DF0F9D89DCAD6B7 /* Pods_PlayPod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51FCB204239F81E000958CAD = {
+			isa = PBXGroup;
+			children = (
+				51FCB20F239F81E000958CAD /* PlayPod */,
+				51FCB20E239F81E000958CAD /* Products */,
+				8A9DBBC4BAFDFCF3CF138EA3 /* Pods */,
+				96FABB97D214D6FF1A11150A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51FCB20E239F81E000958CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51FCB20D239F81E000958CAD /* PlayPod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51FCB20F239F81E000958CAD /* PlayPod */ = {
+			isa = PBXGroup;
+			children = (
+				51FCB210239F81E000958CAD /* AppDelegate.swift */,
+				51FCB212239F81E000958CAD /* SceneDelegate.swift */,
+				51FCB214239F81E000958CAD /* ViewController.swift */,
+				51FCB216239F81E000958CAD /* Main.storyboard */,
+				51FCB219239F81E100958CAD /* Assets.xcassets */,
+				51FCB21B239F81E100958CAD /* LaunchScreen.storyboard */,
+				51FCB21E239F81E100958CAD /* Info.plist */,
+			);
+			path = PlayPod;
+			sourceTree = "<group>";
+		};
+		8A9DBBC4BAFDFCF3CF138EA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCE38283EF2E4B6F1B01A8D2 /* Pods-PlayPod.debug.xcconfig */,
+				6B0793F737A1C77FF6109CED /* Pods-PlayPod.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96FABB97D214D6FF1A11150A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6D233EFB1D8FD7473296B1B /* Pods_PlayPod.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51FCB20C239F81E000958CAD /* PlayPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FCB221239F81E100958CAD /* Build configuration list for PBXNativeTarget "PlayPod" */;
+			buildPhases = (
+				DDF45C7234FF4AADAF06572E /* [CP] Check Pods Manifest.lock */,
+				51FCB209239F81E000958CAD /* Sources */,
+				51FCB20A239F81E000958CAD /* Frameworks */,
+				51FCB20B239F81E000958CAD /* Resources */,
+				09FD80C25C14299FC0F1062E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayPod;
+			productName = PlayPod;
+			productReference = 51FCB20D239F81E000958CAD /* PlayPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51FCB205239F81E000958CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = AdiPadi;
+				TargetAttributes = {
+					51FCB20C239F81E000958CAD = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 51FCB208239F81E000958CAD /* Build configuration list for PBXProject "PlayPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51FCB204239F81E000958CAD;
+			productRefGroup = 51FCB20E239F81E000958CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51FCB20C239F81E000958CAD /* PlayPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51FCB20B239F81E000958CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FCB21D239F81E100958CAD /* LaunchScreen.storyboard in Resources */,
+				51FCB21A239F81E100958CAD /* Assets.xcassets in Resources */,
+				51FCB218239F81E000958CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09FD80C25C14299FC0F1062E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayPod/Pods-PlayPod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayPod/Pods-PlayPod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayPod/Pods-PlayPod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF45C7234FF4AADAF06572E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51FCB209239F81E000958CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FCB215239F81E000958CAD /* ViewController.swift in Sources */,
+				51FCB211239F81E000958CAD /* AppDelegate.swift in Sources */,
+				51FCB213239F81E000958CAD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51FCB216239F81E000958CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FCB217239F81E000958CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51FCB21B239F81E100958CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51FCB21C239F81E100958CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51FCB21F239F81E100958CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51FCB220239F81E100958CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51FCB222239F81E100958CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE38283EF2E4B6F1B01A8D2 /* Pods-PlayPod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UM35L9R9A;
+				INFOPLIST_FILE = PlayPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipadi.PlayPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51FCB223239F81E100958CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0793F737A1C77FF6109CED /* Pods-PlayPod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UM35L9R9A;
+				INFOPLIST_FILE = PlayPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipadi.PlayPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51FCB208239F81E000958CAD /* Build configuration list for PBXProject "PlayPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FCB21F239F81E100958CAD /* Debug */,
+				51FCB220239F81E100958CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FCB221239F81E100958CAD /* Build configuration list for PBXNativeTarget "PlayPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FCB222239F81E100958CAD /* Debug */,
+				51FCB223239F81E100958CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51FCB205239F81E000958CAD /* Project object */;
+}
