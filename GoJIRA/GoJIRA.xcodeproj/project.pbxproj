@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51B1568723F4E99B0060B62E /* GoJIRA.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 51B1568623F4E99B0060B62E /* GoJIRA.entitlements */; };
+		51B1568923F4E99B0060B62E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1568823F4E99B0060B62E /* AppDelegate.swift */; };
+		51B1568C23F4E99B0060B62E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B1568A23F4E99B0060B62E /* Main.storyboard */; };
+		51B1568E23F4E99B0060B62E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1568D23F4E99B0060B62E /* ViewController.swift */; };
+		51B1569023F4E99C0060B62E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B1568F23F4E99C0060B62E /* Assets.xcassets */; };
+		51B1569723F4E99C0060B62E /* GoJIRA Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 51B1569623F4E99C0060B62E /* GoJIRA Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		51B1569C23F4E99C0060B62E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B1569B23F4E99C0060B62E /* Cocoa.framework */; };
+		51B1569F23F4E99C0060B62E /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1569E23F4E99C0060B62E /* SafariExtensionHandler.swift */; };
+		51B156A123F4E99C0060B62E /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B156A023F4E99C0060B62E /* SafariExtensionViewController.swift */; };
+		51B156A423F4E99C0060B62E /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B156A223F4E99C0060B62E /* SafariExtensionViewController.xib */; };
+		51B156A723F4E99C0060B62E /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 51B156A623F4E99C0060B62E /* script.js */; };
+		51B156A923F4E99C0060B62E /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 51B156A823F4E99C0060B62E /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51B1569823F4E99C0060B62E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51B1567B23F4E99B0060B62E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B1569523F4E99C0060B62E;
+			remoteInfo = "GoJIRA Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51B156B023F4E99C0060B62E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				51B1569723F4E99C0060B62E /* GoJIRA Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		51B1568323F4E99B0060B62E /* GoJIRA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoJIRA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B1568623F4E99B0060B62E /* GoJIRA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoJIRA.entitlements; sourceTree = "<group>"; };
+		51B1568823F4E99B0060B62E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51B1568B23F4E99B0060B62E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51B1568D23F4E99B0060B62E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51B1568F23F4E99C0060B62E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51B1569123F4E99C0060B62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51B1569623F4E99C0060B62E /* GoJIRA Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GoJIRA Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B1569B23F4E99C0060B62E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		51B1569E23F4E99C0060B62E /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		51B156A023F4E99C0060B62E /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		51B156A323F4E99C0060B62E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		51B156A523F4E99C0060B62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51B156A623F4E99C0060B62E /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		51B156A823F4E99C0060B62E /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		51B156AA23F4E99C0060B62E /* GoJIRA_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoJIRA_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51B1568023F4E99B0060B62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B1569323F4E99C0060B62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B1569C23F4E99C0060B62E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51B1567A23F4E99B0060B62E = {
+			isa = PBXGroup;
+			children = (
+				51B1568523F4E99B0060B62E /* GoJIRA */,
+				51B1569D23F4E99C0060B62E /* GoJIRA Extension */,
+				51B1569A23F4E99C0060B62E /* Frameworks */,
+				51B1568423F4E99B0060B62E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51B1568423F4E99B0060B62E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51B1568323F4E99B0060B62E /* GoJIRA.app */,
+				51B1569623F4E99C0060B62E /* GoJIRA Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51B1568523F4E99B0060B62E /* GoJIRA */ = {
+			isa = PBXGroup;
+			children = (
+				51B1568623F4E99B0060B62E /* GoJIRA.entitlements */,
+				51B1568823F4E99B0060B62E /* AppDelegate.swift */,
+				51B1568A23F4E99B0060B62E /* Main.storyboard */,
+				51B1568D23F4E99B0060B62E /* ViewController.swift */,
+				51B1568F23F4E99C0060B62E /* Assets.xcassets */,
+				51B1569123F4E99C0060B62E /* Info.plist */,
+			);
+			path = GoJIRA;
+			sourceTree = "<group>";
+		};
+		51B1569A23F4E99C0060B62E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51B1569B23F4E99C0060B62E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51B1569D23F4E99C0060B62E /* GoJIRA Extension */ = {
+			isa = PBXGroup;
+			children = (
+				51B1569E23F4E99C0060B62E /* SafariExtensionHandler.swift */,
+				51B156A023F4E99C0060B62E /* SafariExtensionViewController.swift */,
+				51B156A223F4E99C0060B62E /* SafariExtensionViewController.xib */,
+				51B156A523F4E99C0060B62E /* Info.plist */,
+				51B156A623F4E99C0060B62E /* script.js */,
+				51B156A823F4E99C0060B62E /* ToolbarItemIcon.pdf */,
+				51B156AA23F4E99C0060B62E /* GoJIRA_Extension.entitlements */,
+			);
+			path = "GoJIRA Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51B1568223F4E99B0060B62E /* GoJIRA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B156B123F4E99C0060B62E /* Build configuration list for PBXNativeTarget "GoJIRA" */;
+			buildPhases = (
+				51B1567F23F4E99B0060B62E /* Sources */,
+				51B1568023F4E99B0060B62E /* Frameworks */,
+				51B1568123F4E99B0060B62E /* Resources */,
+				51B156B023F4E99C0060B62E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51B1569923F4E99C0060B62E /* PBXTargetDependency */,
+			);
+			name = GoJIRA;
+			productName = GoJIRA;
+			productReference = 51B1568323F4E99B0060B62E /* GoJIRA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51B1569523F4E99C0060B62E /* GoJIRA Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B156AD23F4E99C0060B62E /* Build configuration list for PBXNativeTarget "GoJIRA Extension" */;
+			buildPhases = (
+				51B1569223F4E99C0060B62E /* Sources */,
+				51B1569323F4E99C0060B62E /* Frameworks */,
+				51B1569423F4E99C0060B62E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoJIRA Extension";
+			productName = "GoJIRA Extension";
+			productReference = 51B1569623F4E99C0060B62E /* GoJIRA Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51B1567B23F4E99B0060B62E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = AdiPadi;
+				TargetAttributes = {
+					51B1568223F4E99B0060B62E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					51B1569523F4E99C0060B62E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 51B1567E23F4E99B0060B62E /* Build configuration list for PBXProject "GoJIRA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51B1567A23F4E99B0060B62E;
+			productRefGroup = 51B1568423F4E99B0060B62E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51B1568223F4E99B0060B62E /* GoJIRA */,
+				51B1569523F4E99C0060B62E /* GoJIRA Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51B1568123F4E99B0060B62E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B1568723F4E99B0060B62E /* GoJIRA.entitlements in Resources */,
+				51B1569023F4E99C0060B62E /* Assets.xcassets in Resources */,
+				51B1568C23F4E99B0060B62E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B1569423F4E99C0060B62E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B156A923F4E99C0060B62E /* ToolbarItemIcon.pdf in Resources */,
+				51B156A423F4E99C0060B62E /* SafariExtensionViewController.xib in Resources */,
+				51B156A723F4E99C0060B62E /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51B1567F23F4E99B0060B62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B1568E23F4E99B0060B62E /* ViewController.swift in Sources */,
+				51B1568923F4E99B0060B62E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B1569223F4E99C0060B62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B156A123F4E99C0060B62E /* SafariExtensionViewController.swift in Sources */,
+				51B1569F23F4E99C0060B62E /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51B1569923F4E99C0060B62E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51B1569523F4E99C0060B62E /* GoJIRA Extension */;
+			targetProxy = 51B1569823F4E99C0060B62E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51B1568A23F4E99B0060B62E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51B1568B23F4E99B0060B62E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51B156A223F4E99C0060B62E /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51B156A323F4E99C0060B62E /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51B156AB23F4E99C0060B62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51B156AC23F4E99C0060B62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		51B156AE23F4E99C0060B62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "GoJIRA Extension/GoJIRA_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UM35L9R9A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "GoJIRA Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adipadi.GoJIRA-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		51B156AF23F4E99C0060B62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "GoJIRA Extension/GoJIRA_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UM35L9R9A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "GoJIRA Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adipadi.GoJIRA-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		51B156B223F4E99C0060B62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoJIRA/GoJIRA.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3UM35L9R9A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GoJIRA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipadi.GoJIRA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		51B156B323F4E99C0060B62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoJIRA/GoJIRA.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3UM35L9R9A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GoJIRA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipadi.GoJIRA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51B1567E23F4E99B0060B62E /* Build configuration list for PBXProject "GoJIRA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B156AB23F4E99C0060B62E /* Debug */,
+				51B156AC23F4E99C0060B62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B156AD23F4E99C0060B62E /* Build configuration list for PBXNativeTarget "GoJIRA Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B156AE23F4E99C0060B62E /* Debug */,
+				51B156AF23F4E99C0060B62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B156B123F4E99C0060B62E /* Build configuration list for PBXNativeTarget "GoJIRA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B156B223F4E99C0060B62E /* Debug */,
+				51B156B323F4E99C0060B62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51B1567B23F4E99B0060B62E /* Project object */;
+}
